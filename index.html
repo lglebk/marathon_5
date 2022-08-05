@@ -10,9 +10,12 @@
 </head>
 
 <body>
+	<!------------------ header ------------------------>
 	<header>
 		<div class="header__container _container">
-			<div class="header__logo"><img src="" alt="Логотип SCANDI."></div>
+			<div class="header__logo">
+				<a href="" class="header__logo"><img src="img/intro/logo.png" alt="Логотип SCANDI.">SCANDI</a>
+			</div>
 			<nav class="header__nav">
 				<ul>
 					<li>О компании</li>
@@ -30,21 +33,188 @@
 	</header>
 
 	<main>
-		<div class="main__container _container">
-			<section class="page__intro intro">
+		<!------------------- page__intro -------------->
+		<section class="page__intro intro">
+			<div class="intro__container _container">
 				<div class="intro__help">
-					<h1 class="intro__title">Поможем сделать
+					<h1 class="intro__hidden">SCANDI</h1>
+					<h2 class="intro__title">Поможем сделать
 						вашу квартиру
-						уютнее</h1>
+						уютнее</h2>
 					<p class="intro__subtitle">Подбираем текстиль, мебель и аксессуары
 						под ваш интерьер, находим магазины
 						и помогаем организовать доставку </p>
 					<a href="#" class="intro__request">Оставить заявку</a>
 				</div>
-			</section>
-		</div>
+			</div>
+		</section>
+		<!-- -------------about__us-------------->
+		<section class="page__about about">
+			<div class="about__container _container">
+				<h2 class="about__title center__title">о нас</h2>
+				<div class="about__picture"><img src="img/about/1.jpg" alt="Сервировка на столе.">
+				</div>
+				<div class="about__text">
+					<p>Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать
+						неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то, что
+						по-настоящему вдохновляет дизайнеров нашей студии.</p>
+					<p>Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать:
+						« Да! Это именно то, что действительно достойно моего дома!»</p>
+				</div>
+			</div>
+		</section>
+		<!-- -----------metrics ---------------->
+		<section class="page__metrics metrics">
+			<div class="metrics__container _container">
+				<div class="metrics__items">
+					<div class="metrics__item item">
+						<h3 class="item__number">5</h3>
+						<h4 class="item__subtitle">лет опыта</h4>
+					</div>
+					<div class="metrics__item item">
+						<h3 class="item__number">100</h3>
+						<h4 class="item__subtitle">проектов</h4>
+					</div>
+					<div class="metrics__item item">
+						<h3 class="item__number">10</h3>
+						<h4 class="item__subtitle">наград</h4>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-----------------results -------------------->
+		<section class="page__results results">
+			<div class="results__container _container">
+				<h2 class="results__title">наши работы</h2>
+				<form action="get" class="results__slides">
+					<div class="results__gallery">
+						<img src="/img/results/1.jpg" alt="Спальня." class="results__img">
+						<img src="/img/results/2.jpg" alt="Столовая." class="results__img">
+						<img src="/img/results/3.jpg" alt="Гостиная." class="results__img">
+						<img src="/img/results/4.jpg" alt="Ванная." class="results__img">
+					</div>
+					<button class="results__more">Смотреть ещё</button>
+				</form>
+			</div>
+		</section>
+		<!--------------team ---------------------------->
+		<section class="page__team team">
+			<div class="team__container _container">
+				<h2 class="team__title center__title">команда</h2>
+				<div class="team__items">
+					<div class="team__item">
+						<img src="/img/team/1.jpg" alt="Маша, главный дизайнер." class="team__img">
+						<p class="team__text">Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам
+							домой, общается
+							и помогает сделать вашу квартиру красивой и уютной.</p>
+					</div>
+					<div class="team__item">
+						<img src="/img/team/2.jpg" alt="Саша, менеджер." class="team__img">
+						<p class="team__text">С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует
+							вас, соберёт все документы
+							и ответит на все вопросы.</p>
+					</div>
+					<div class="team__item">
+						<img src="/img/team/3.jpg" alt="Катя, дизайнер." class="team__img">
+						<p class="team__text">Катя тоже занимается дизайном.
+							Она всегда находит общий язык
+							с клиентами и точно знает,
+							как обустроить дом так, чтобы вам понравилось.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!----------------worksteps --------->
+		<section class="page__worksteps worksteps">
+			<div class="worksteps__container _container">
+				<h2 class="worksteps__title center__title">как мы работаем</h2>
+				<div class="worksteps__items">
+					<div class="worksteps__item">
+						<div class="worksteps__number">1</div>
+						<div class="worksteps__text">Знакомимся, выезжаем
+							на объект, утверждаем концепцию, подписываем договор.</div>
+					</div>
+					<div class="worksteps__item">
+						<div class="worksteps__number">2</div>
+						<div class="worksteps__text">Подбираем мебель, текстиль, аксессуары. Делаем 3D-
+							визуализацию.</div>
+					</div>
+					<div class="worksteps__item">
+						<div class="worksteps__number">3</div>
+						<div class="worksteps__text">Находим нужные магазины, помогаем с доставкой
+							и оплатой товаров.</div>
+					</div>
+					<div class="worksteps__item">
+						<div class="worksteps__number">4</div>
+						<div class="worksteps__text">Воплощаем проект в жизнь:
+							расставляем мебель и цветы, вешаем шторы, находим места для мелочей</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!------------ feedbacks ------------------------>
+		<section class="page__feedbacks feedbacks">
+			<div class="feedbacks__container _container">
+				<h2 class="feedbacks__title center__title">отзывы</h2>
+				<form class="feedbacks__slides slides">
+					<button class="slides__left"><img src="/img/feedbacks/slides-left.svg" alt="Предыдущий.">
+					</button>
+					<div class="slides__feedback">
+						<div class="slides__text">
+							<blockquote>«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для
+								украшения своего дома.
+
+								Работа шла быстро, было очень приятно общаться и взаимодествовать
+								с сотрудниками. Не ожидала, что это будет так легко!
+
+								Буду советовать и своим друзьям к вам обращаться!»
+							</blockquote>
+							<cite>АННА БЕЛОВСКАЯ</cite>
+						</div>
+						<div class="slides__img">
+							<img src="/img/feedbacks/1.jpg" alt="Гостиная.">
+							<img src="/img/feedbacks/2.jpg" alt="Столовая.">
+						</div>
+					</div>
+					<button class="slides__right"><img src="/img/feedbacks/slides-right.svg" alt="Следующий."></button>
+				</form>
+			</div>
+		</section>
+		<!------------- request ---------------------->
+		<section class="page__request request">
+			<div class="request__container _container">
+				<form action="get" class="request__form">
+					<div class="request__text">
+						<h5 class="request__title">Оставить заявку</h5>
+						<p class="request__subtitle">Оставьте свои контакты. Менеджер перезвонит
+							в удобное вам время и ответит на все вопросы.</p>
+						<input type="text" value="Ваше имя" class="request__input"></input>
+						<br>
+						<input type="tel" value="Введите телефон" class="request__input"></input>
+						<br>
+						<button class="request__btn">Оставить заявку</button>
+					</div>
+					<div class="request__map">
+						<img src="/img/request/1.jpg" alt="Карта.">
+					</div>
+				</form>
+			</div>
+		</section>
 	</main>
-	<footer></footer>
+	<!------------ footer ----------------------------->
+	<footer>
+		<div class="footer__container _container">
+
+			<div class="footer__text">
+				<div class="footer__contacts">
+					<a href="tel:+79818574624" class="footer__tel">+7 (981) 857-46-24</a>
+					<p>г. Санкт-петербург, ул. Большая Конюшенная, 19</p>
+				</div>
+				<div class="footer__employer">ИП Королёва А.А.
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 
 </html>
