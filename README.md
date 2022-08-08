@@ -1,2 +1,2 @@
-# marathon_5
+# marathon_5.github.io
 Мой первый хостинг
