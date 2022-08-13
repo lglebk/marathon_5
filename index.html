@@ -5,8 +5,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500&display=swap" rel="stylesheet" />
 	<title>SCANDI</title>
 </head>
 
@@ -16,9 +17,9 @@
 		<header>
 			<div class="header__container _container">
 				<div class="header__menu">
+					<h1 class="intro__hidden">SCANDI</h1>
 					<div class="header__logo">
-						<a href="" class="header__logo"><img src="img/intro/logo.png"
-								alt="Логотип SCANDI. width='25px' height='25px'">SCANDI</a>
+						<img src="img/intro/logo.png" alt="Логотип SCANDI." width="90.55px" height="25px">
 					</div>
 					<nav class="header__nav">
 						<ul>
@@ -41,10 +42,7 @@
 			<section class="page__intro intro">
 				<div class="intro__container _container">
 					<div class="intro__help">
-						<h1 class="intro__hidden">SCANDI</h1>
-						<h2 class="intro__title">Поможем сделать
-							вашу квартиру
-							уютнее</h2>
+						<h2 class="intro__title">Поможем сделать<br> вашу квартиру<br> уютнее</h2>
 						<p class="intro__subtitle">Подбираем текстиль, мебель и аксессуары<br>
 							под ваш интерьер, находим магазины<br>
 							и помогаем организовать доставку </p>
@@ -60,20 +58,11 @@
 					</div>
 					<div class="about__content">
 						<div class="about__picture">
-							<img src="img/about/1.jpg" class="about__picture" alt="Сервировка на столе.">
+							<img src="img/about/1.jpg" class="about__picture" alt="Сервировка на столе." width="444.54px" height="465px">
 						</div>
 						<div class="about__text">
-							<p>
-								Премиальный европейский текстиль — одно из самых главных направлений работы коллектива.
-								Создавать
-								неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,
-								что
-								по-настоящему вдохновляет дизайнеров нашей студии
-							</p>
-							<p>
-								Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать:
-								« Да! Это именно то, что действительно достойно моего дома!»
-							</p>
+							<p>Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то, по-настоящему вдохновляет дизайнеров нашей студии </p>
+							<p>Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать: « Да! Это именно то, что действительно достойно моего дома!»</p>
 						</div>
 					</div>
 				</div>
@@ -83,33 +72,31 @@
 				<div class="metrics__container _container">
 					<div class="metrics__items">
 						<div class="metrics__item item">
-							<h3 class="item__number">5</h3>
-							<h4 class="item__subtitle">лет опыта</h4>
+							<p class="item__number">5</p>
+							<p class="item__subtitle">лет опыта</p>
 						</div>
 						<div class="metrics__item item">
-							<h3 class="item__number">100</h3>
-							<h4 class="item__subtitle">проектов</h4>
+							<p class="item__number">100</p>
+							<p class="item__subtitle">проектов</p>
 						</div>
 						<div class="metrics__item item">
-							<h3 class="item__number">10</h3>
-							<h4 class="item__subtitle">наград</h4>
+							<p class="item__number">10</p>
+							<p class="item__subtitle">наград</p>
 						</div>
 					</div>
 				</div>
 			</section>
-			<!-----------------results -------------------->
-			<section id='portfolio' class="page__results results">
-				<div class="results__container _container">
-					<h2 class="results__title">наши работы</h2>
-					<form action="post" class="results__slides">
-						<div class="results__gallery">
-							<img src="/img/results/1.jpg" alt="Спальня." class="results__img">
-							<img src="/img/results/2.jpg" alt="Столовая." class="results__img">
-							<img src="/img/results/3.jpg" alt="Гостиная." class="results__img">
-							<img src="/img/results/4.jpg" alt="Ванная." class="results__img">
-						</div>
-						<button class="results__more">Смотреть ещё <img src="/img/results/Arrow.svg" alt="Далее."></button>
-					</form>
+			<!-----------------portfolio -------------------->
+			<section id='portfolio' class="page__portfolio portfolio">
+				<div class="portfolio__container _container">
+					<h2 class="portfolio__title">наши работы</h2>
+					<div class="portfolio__gallery">
+						<img src="/img/results/1.jpg" alt="Спальня." class="portfolio__img" width="488px" height="451px">
+						<img src="/img/results/2.jpg" alt="Столовая." class="portfolio__img" width="692px" height="451px">
+						<img src="/img/results/3.jpg" alt="Гостиная." class="portfolio__img" width="692px" height="451px">
+						<img src="/img/results/4.jpg" alt="Ванная." class="portfolio__img" width="488px" height="451px">
+					</div>
+					<a href='#' class="portfolio__more">Смотреть ещё <img src="/img/results/Arrow.svg" alt="Далее." width="60px"></a>
 				</div>
 			</section>
 			<!--------------team ---------------------------->
@@ -118,25 +105,16 @@
 					<h2 class="team__title center__title">команда</h2>
 					<div class="team__items">
 						<div class="team__item">
-							<img src="/img/team/1.jpg" alt="Маша, главный дизайнер." class="team__img">
-							<p class="team__text">Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к
-								вам
-								домой, общается<br>
-								и помогает сделать вашу квартиру красивой и уютной.</p>
+							<img src="/img/team/1.jpg" alt="Маша, главный дизайнер." class="team__img" width="320px" height="253px">
+							<p class="team__text">Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается и помогает сделать вашу квартиру красивой и уютной.</p>
 						</div>
 						<div class="team__item">
-							<img src="/img/team/2.jpg" alt="Саша, менеджер." class="team__img">
-							<p class="team__text">С нашим менеджером Сашей вы познакомитесь в первую очередь. Она
-								проконсультирует
-								вас, соберёт все документы
-								и ответит на все вопросы.</p>
+							<img src="/img/team/2.jpg" alt="Саша, менеджер." class="team__img" width="320px" height="253px">
+							<p class="team__text">С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все документы и ответит на все вопросы.</p>
 						</div>
 						<div class="team__item">
-							<img src="/img/team/3.jpg" alt="Катя, дизайнер." class="team__img">
-							<p class="team__text">Катя тоже занимается дизайном.
-								Она всегда находит общий язык
-								с клиентами и точно знает,
-								как обустроить дом так, чтобы вам понравилось.</p>
+							<img src="/img/team/3.jpg" alt="Катя, дизайнер." class="team__img" width="320px" height="253px">
+							<p class="team__text">Катя тоже занимается дизайном. Она всегда находит общий язык с клиентами и точно знает, как обустроить дом так, чтобы вам понравилось.</p>
 						</div>
 					</div>
 				</div>
@@ -148,23 +126,19 @@
 					<div class="worksteps__items">
 						<div class="worksteps__item">
 							<div class="worksteps__number">1</div>
-							<div class="worksteps__text">Знакомимся, выезжаем
-								на объект, утверждаем концепцию, подписываем договор.</div>
+							<div class="worksteps__text">Знакомимся, выезжаем на объект, утверждаем концепцию, подписываем договор.</div>
 						</div>
 						<div class="worksteps__item">
 							<div class="worksteps__number">2</div>
-							<div class="worksteps__text">Подбираем мебель, текстиль, аксессуары. Делаем 3D-
-								визуализацию.</div>
+							<div class="worksteps__text">Подбираем мебель, текстиль, аксессуары. Делаем 3D-визуализацию.</div>
 						</div>
 						<div class="worksteps__item">
 							<div class="worksteps__number">3</div>
-							<div class="worksteps__text">Находим нужные магазины, помогаем с доставкой
-								и оплатой товаров.</div>
+							<div class="worksteps__text">Находим нужные магазины, помогаем с доставкой и оплатой товаров.</div>
 						</div>
 						<div class="worksteps__item">
 							<div class="worksteps__number">4</div>
-							<div class="worksteps__text">Воплощаем проект в жизнь:
-								расставляем мебель и цветы, вешаем шторы, находим места для мелочей</div>
+							<div class="worksteps__text">Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы, находим места для мелочей</div>
 						</div>
 					</div>
 				</div>
@@ -174,43 +148,41 @@
 				<div class="feedbacks__container _container">
 					<h2 class="feedbacks__title center__title">отзывы</h2>
 					<form class="feedbacks__slides slides">
-						<button class="slides__left"><img src="/img/feedbacks/slides-left.svg" alt="Предыдущий.">
+						<button class="slides__left"><img src="/img/feedbacks/slides-left.svg" alt="Предыдущий." width="72px" height="72px">
 						</button>
 						<div class="slides__feedback">
 							<div class="slides__text">
-								<blockquote>«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для
-									украшения своего дома. </blockquote>
-								<blockquote>Работа шла быстро, было очень приятно общаться и взаимодествовать
-									с сотрудниками. Не ожидала, что это будет так легко! </blockquote>
-								<blockquote>Буду советовать и своим друзьям к вам обращаться!»
+								<blockquote>
+									<p>«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.</p>
+									<p>Работа шла быстро, было очень приятно общаться и взаимодествовать с сотрудниками. Не ожидала, что это будет так легко!</p>
+									<p>Буду советовать и своим друзьям к вам обращаться!»</p>
+									<cite>АННА БЕЛОВСКАЯ</cite>
 								</blockquote>
-								<cite>АННА БЕЛОВСКАЯ</cite>
 							</div>
 							<div class="slides__img">
-								<img src="/img/feedbacks/1.jpg" alt="Гостиная.">
-								<img src="/img/feedbacks/2.jpg" alt="Столовая.">
+								<img src="/img/feedbacks/1.jpg" alt="Гостиная." width="407px" height="272px">
+								<img src="/img/feedbacks/2.jpg" alt="Столовая." width="407px" height="272px">
 							</div>
 						</div>
-						<button class="slides__right"><img src="/img/feedbacks/slides-right.svg" alt="Следующий."></button>
+						<button class="slides__right"><img src="/img/feedbacks/slides-right.svg" alt="Следующий." width="72px" height="72px"></button>
 					</form>
 				</div>
 			</section>
 			<!------------- request ---------------------->
 			<section id=requested class="page__request request">
 				<div class="request__container _container">
+					<h5 class="request__title">Оставить заявку</h5>
 					<form action="post" class="request__form">
 						<div class="request__text">
-							<h5 class="request__title">Оставить заявку</h5>
-							<p class="request__subtitle">Оставьте свои контакты. Менеджер перезвонит
-								в удобное вам время и ответит на все вопросы.</p>
-							<input type="text" value="Ваше имя" required class="request__input">
+							<p class="request__subtitle">Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.</p>
+							<input type="text" value="Ваше имя" required class="request__input" label="name">
 							<br>
-							<input type="tel" value="Введите телефон" required class="request__input">
+							<input type="tel" value="Введите телефон" required class="request__input" label="tel">
 							<br>
-							<button class="request__btn">Оставить заявку</button>
+							<button type="submit" class="request__btn">Оставить заявку</button>
 						</div>
 						<div class="request__map">
-							<img src="/img/request/1.jpg" alt="Карта.">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.82577611934607!2d30.323114145403657!3d59.938676300196065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1660402146294!5m2!1sru!2sru" width="590" height="624" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 						</div>
 					</form>
 				</div>
@@ -222,7 +194,7 @@
 				<div class="footer__text">
 					<div class="footer__contacts">
 						<a href="tel:+79818574624" class="footer__tel">+7 (981) 857-46-24</a>
-						г. Санкт-петербург, ул. Большая Конюшенная, 19
+						<address>г. Санкт-петербург, ул. Большая Конюшенная, 19</address>
 					</div>
 					<div class="footer__employer">ИП Королёва А.А.
 					</div>
